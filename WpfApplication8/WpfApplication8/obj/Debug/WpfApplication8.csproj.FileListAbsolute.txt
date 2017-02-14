@@ -1,0 +1,14 @@
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\bin\Debug\WpfApplication8.exe.config
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\bin\Debug\WpfApplication8.exe
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\bin\Debug\WpfApplication8.pdb
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\WpfApplication8.csprojResolveAssemblyReference.cache
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\MainWindow.g.cs
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\App.g.cs
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\WpfApplication8_MarkupCompile.cache
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\WpfApplication8_MarkupCompile.lref
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\MainWindow.baml
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\WpfApplication8.g.resources
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\WpfApplication8.Properties.Resources.resources
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\WpfApplication8.csproj.GenerateResource.Cache
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\WpfApplication8.exe
+c:\users\fabster\documents\visual studio 2015\Projects\WpfApplication8\WpfApplication8\obj\Debug\WpfApplication8.pdb

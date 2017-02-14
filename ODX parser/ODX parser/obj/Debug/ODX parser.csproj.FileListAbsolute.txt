@@ -1,0 +1,9 @@
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\bin\Debug\ODX parser.exe.config
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\bin\Debug\ODX parser.exe
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\bin\Debug\ODX parser.pdb
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\obj\Debug\ODX parser.csprojResolveAssemblyReference.cache
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\obj\Debug\ODX_parser.Form1.resources
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\obj\Debug\ODX_parser.Properties.Resources.resources
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\obj\Debug\ODX parser.csproj.GenerateResource.Cache
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\obj\Debug\ODX parser.exe
+c:\users\fabster\documents\visual studio 2015\Projects\ODX parser\ODX parser\obj\Debug\ODX parser.pdb

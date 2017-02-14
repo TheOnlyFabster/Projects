@@ -1,0 +1,17 @@
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\bin\Debug\easytoggle.exe.config
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\easytoggle.csprojResolveAssemblyReference.cache
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\MainWindow.g.cs
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\App.g.cs
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\easytoggle_MarkupCompile.cache
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\easytoggle_MarkupCompile.lref
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\bin\Debug\easytoggle.exe
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\bin\Debug\easytoggle.pdb
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\MainWindow.baml
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\easytoggle.g.resources
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\easytoggle.Properties.Resources.resources
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\easytoggle.csproj.GenerateResource.Cache
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\easytoggle.exe
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\easytoggle.pdb
+c:\users\fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\FlagBar.g.cs
+C:\Users\Fabster\documents\visual studio 2015\Projects\easytoggle\easytoggle\obj\Debug\FlagBar.baml

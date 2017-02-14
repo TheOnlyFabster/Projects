@@ -1,0 +1,32 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.galasoft.ch/ignore"
+        xmlns:local="clr-namespace:MvvmLight2" x:Class="MvvmLight2.MainWindow"
+        mc:Ignorable="d ignore"
+        Height="428.572"
+        Width="731.044"
+        Title="MVVM Light Application"
+        >
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Skins/MainSkin.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <Binding Path="Main" Source="{StaticResource Locator}"/>
+    </Window.DataContext>
+
+    <Grid x:Name="LayoutRoot">
+        <StackPanel>
+        <local:Blinking HorizontalAlignment="Left" Margin="0" Width="16" Height="16"/>
+        <local:Blinking HorizontalAlignment="Left" Margin="0" Width="64" Height="64"/>
+        </StackPanel>
+    </Grid>
+</Window>

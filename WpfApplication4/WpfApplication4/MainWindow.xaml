@@ -1,0 +1,80 @@
+﻿<Window x:Class="DataGridExample.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:converters="clr-namespace:DataGridExamples.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Window.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="ExpandDetails">
+                <ToggleButton Name="ShowDetails" 
+                              IsChecked="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow}, 
+                                                  Path=DetailsVisibility, 
+                                                  Converter={converters:VisbilityToBooleanConverter}, 
+                                                  Mode=TwoWay}" 
+                              Margin="4" />
+            </DataTemplate>
+            <ControlTemplate x:Key="ToggleButtonTemplate" TargetType="{x:Type ToggleButton}">
+                <Grid>
+                    <Border x:Name="ContentBorder" CornerRadius="4" BorderBrush="Transparent" BorderThickness="1" Background="{DynamicResource ButtonOff}">
+                        <ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True"/>
+                    </Border>
+                </Grid>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsPressed" Value="true">
+                        <Setter TargetName="ContentBorder" Property="Background" Value="{DynamicResource ButtonOn}"/>
+                    </Trigger>
+                    <Trigger Property="IsChecked" Value="true">
+                        <Setter TargetName="ContentBorder" Property="Background" Value="{DynamicResource ButtonOn}"/>
+                    </Trigger>
+                    <Trigger Property="IsEnabled" Value="false">
+                        <Setter TargetName="ContentBorder" Property="Background" Value="{DynamicResource ButtonDisabled}"/>
+                        <Setter Property="Foreground" Value="{DynamicResource BorderDisabled}"/>
+                    </Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel>
+        <!--<ContentControl x:Name="Ribbon" DockPanel.Dock="Top" />-->
+        <DataGrid
+            SelectionMode="Single"
+            HorizontalAlignment="Stretch" 
+            VerticalAlignment="Stretch" 
+            AutoGenerateColumns="False" 
+            Name="lvUsers"
+           
+            CanUserAddRows="False"
+            CanUserDeleteRows="True"
+            IsReadOnly="True"
+          
+            >
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="" CellTemplate="{StaticResource ExpandDetails}" Width="30" />
+                <DataGridTextColumn Binding="{Binding Path=Name}" Header="Name" Width="1*" />
+                <DataGridTextColumn Binding="{Binding Path=Age}" Header="Age" Width="6*" />
+                <DataGridTextColumn Binding="{Binding Path=Mail}" Header="Mail" Width="2*" />
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="2,0,0,0" Margin="30,0,0,0" Background="WhiteSmoke" BorderBrush="Black">
+                        <StackPanel>
+                            <TextBlock Text="User Permission" Margin="5" />
+                            <ListView ItemsSource="{Binding SubItems}" SelectionMode="Single" IsSynchronizedWithCurrentItem="True">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="field1" DisplayMemberBinding="{Binding field1}" />
+                                        <GridViewColumn Header="field2"  DisplayMemberBinding="{Binding field2}" />
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+    </DockPanel>
+</Window>

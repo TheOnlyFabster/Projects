@@ -1,0 +1,14 @@
+{
+  "name": "angular-vs2013-starter",
+  "homepage": "https://github.com/aaronmarisi/angular-vs2013-starter",
+  "_release": "a53782bbab",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a53782bbab2ef1e7d0efc8dc2dce4baf4500138c"
+  },
+  "_source": "git://github.com/aaronmarisi/angular-vs2013-starter.git",
+  "_target": "*",
+  "_originalSource": "aaronmarisi/angular-vs2013-starter",
+  "_direct": true
+}
